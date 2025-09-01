@@ -1,7 +1,7 @@
 export class Player {
   constructor(name,level) {
-  this.name = name;
-  this.level = level;
+    this.name = name;
+    this.level = level;
   }
   
   info (){
@@ -9,5 +9,6 @@ export class Player {
   }
   levelUp() {
     this.level += 1;
+  }
 }
-}
+
